@@ -1,0 +1,22 @@
+# Abhishek Docker Cheat Sheet
+
+# Run an Image:
+docker run -p 3000:3000 --name youtube-player-container youtube_player
+
+# Get All Containers:
+docker ps -a
+
+# Stop a Container:
+docker stop <containerId>
+
+# Start a Container:
+docker start <container-id>
+
+# Kill a Container:
+docker kill <container-id>
+
+# Restart an Existing Container:
+docker start <containerid>
+
+# Inspect a Container:
+docker inspect <container-id>
