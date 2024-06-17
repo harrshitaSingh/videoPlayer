@@ -76,12 +76,12 @@ const VideoContainer: React.FC = () => {
     <div className="video-container" ref={videoContainerRef}>
       <div style={{ ...Skip, left: "10%" }} ref={skipBackwardRef}>
         <FaBackward />
-        <span>10 seconds</span>
+        <span>5 seconds</span>
       </div>
 
       <div style={{ ...Skip, right: "10%" }} ref={skipForwordRef}>
         <FaForward />
-        <span className="sr-only">10 seconds</span>
+        <span className="sr-only">5 seconds</span>
       </div>
 
       <div className="controls-container">
